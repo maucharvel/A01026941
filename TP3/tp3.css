@@ -1,0 +1,28 @@
+body {
+	background-color: lightblue;
+  }
+  
+  h1 {
+	color: navy;
+	margin-left: 20px;
+	border:solid red 1px;
+	text-align: center;
+	padding: 20px;
+  }
+ 
+  p {
+	font-style: italic;
+	font-size:medium;
+	text-align: center;
+	border:solid black 1px;
+  }
+
+  img {
+	opacity: .9;
+	border-radius: 6cm;
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  	width: 10%;
+	border:solid black 1px;
+  }
