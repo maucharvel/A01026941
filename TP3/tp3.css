@@ -1,19 +1,19 @@
 body {
+	margin: 0;
 	background-color: lightblue;
+	text-align: center;
   }
   
   h1 {
 	color: navy;
 	margin-left: 20px;
 	border:solid red 1px;
-	text-align: center;
 	padding: 20px;
   }
  
   p {
 	font-style: italic;
 	font-size:medium;
-	text-align: center;
 	border:solid black 1px;
   }
 
