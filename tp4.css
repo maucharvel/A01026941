@@ -1,0 +1,30 @@
+.page
+{
+	background-color: rgb(30, 160, 180);
+}
+
+img
+{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+h3
+{
+	text-align: center;
+	font: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p
+{
+	text-align: center;
+	font: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-center
+{
+	text-align: center;
+}
