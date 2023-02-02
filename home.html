@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Prototipo</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">AutoWash</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="mi_cuenta.html">Mi Cuenta</a></li>
+        <li><a href="encuesta.html">Encuesta de Satisfacción</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Administrador</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">¡A domicilio!</a>
+    </div>
+  </nav>
+
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">¡Nosotros vamos a tí!</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Programa tu visita y ve brillar tu auto</h5>
+      </div>
+      <div class="row center">
+        <a href="#agenda" id="download-button" class="btn-large waves-effect waves-light orange">Agenda aquí</a>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="http://lobbyfix.com/wp-content/uploads/2020/12/businessman-planning-events-deadlines-agenda_74855-6274.jpg" style="width: 80%;">
+            <h5 class="center">Agenda con nosotros con solo un click</h5>
+            
+            <p>Rápido, sencillo y conveniente.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="https://www.cetys.mx/educon/wp-content/uploads/2021/03/5278-scaled.jpg
+            " style="width: 80%;">            
+            <h5 class="center">Equipo profesional</h5>
+
+            <p class="light">Todos nuestros colaboradores están altamente capacitados para hacer a tu coche brillar</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <img src="https://i.pinimg.com/474x/fa/50/79/fa5079f933822a2743a783a43feea0ae--fiat-cars-creative-illustration.jpg" style="width: 80%;">             
+            <h5 class="center">Elige nuestros servicios</h5>
+
+            <p class="light">¡Entre nuetsros servicios están: Pulido, encerado, tratamiento de piel, limpieza interior y más!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+
+
+
+    <div id="user_stories">
+      <!--
+        <img src="https://assets.justinmind.com/wp-content/uploads/2020/09/user-story-examples-product-plan.png" alt="user stories referencia">
+      -->
+    <h3>Te escuchamos</h3>
+    <div align=center>
+      <h5>Esperanza</h5>
+      <img src="https://media.istockphoto.com/id/1150346585/es/foto/retrato-de-cerca-de-retrato-de-mujer-mayor-feliz-retrato.jpg?s=612x612&w=0&k=20&c=i_CEHSkEo494fe0Mf7BRGOqqzWsmmYwfr_8R0pqw5jE=" style="border-radius: 100%; width: 150px; height:150px">
+      <h6 style="color: black !Important;">"Soy una persona de la tercera edad, no sé mucho de tecnología: me gustan los sitios sencillos para no confundirme entre tanta información."</h6>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+
+    <div align=center>
+      <h5>Mario</h5>
+      <img src="https://img.freepik.com/fotos-premium/oficinista-que-trabaja-computadora-oficina_249974-11397.jpg" style="border-radius: 100%; width: 150px; height:150px">
+      <h6>"Soy un oficinista con 8 horas de trabajo. Me gustan los sitios que ofrecen sus servicios desde el inicio para no perder tiempo"</h6>
+      <br> <br>
+    </div>
+
+    <div align=center id="video_promocional">
+      <iframe width="840" height="630"
+      src="https://www.youtube.com/embed/VJvdOSt5--I">
+      </iframe>
+    </div>
+
+    <div style="height: 120px;"></div>
+    <div>
+      <h4>Por eso nuestro lema: rápido y sencillo</h4>
+      <h5 id="agenda">Agenda tu visita aquí</h5>
+    </div>
+
+    <div id="form">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Nombre" id="first_name" type="text" class="validate">
+              <label for="first_name">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Apellido</label>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Fecha y horario de visita</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Domicilio</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+
+          <div class="row center">
+            <a href="" id="download-button" class="btn-large waves-effect waves-light orange">Enviar</a>
+          </div>
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+  <footer class="page-footer light-blue lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">AutoWash</h5>
+          <p>Tu autolavado: rápido y sencillo</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
